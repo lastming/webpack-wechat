@@ -1,0 +1,29 @@
+<config>
+  {
+  "pages": [
+  "pages/home.mina"
+  ],
+  "window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "微信小程序",
+  "navigationBarTextStyle": "black"
+  }
+  }
+</config>
+<script type="text/javascript">
+  App({
+    onLaunch(opts) {
+      console.log('App Launch', opts)
+    },
+    onShow(opts) {
+      console.log('App Show', opts)
+    },
+    onHide() {
+      console.log('App Hide')
+    }
+  })
+</script>
+<style lang="scss" type="text/scss" rel="stylesheet/scss">
+
+</style>

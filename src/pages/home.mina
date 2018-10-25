@@ -1,0 +1,27 @@
+<config>
+  {
+  "usingComponents": {
+  "logo": "/components/logo/index.mina"
+  }
+  }
+</config>
+<template>
+  <view>
+    <logo/>
+    <view class="text">{{text}}</view>
+  </view>
+</template>
+<script type="text/javascript">
+  Page({
+    data: {
+      text: 'hello world'
+    }
+  })
+</script>
+<style lang="scss" type="text/scss" rel="stylesheet/scss">
+  .text {
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+  }
+</style>
